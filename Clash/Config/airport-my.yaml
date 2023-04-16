@@ -140,14 +140,16 @@ dns:
     - '+.lan'
     
   nameserver:
-   - 'https://dns.cooluc.com/dns-query'
-   - 'https://cn-east.iqiqzz.com/cdn'
-   - "https://edns.apad.pro:3306/cdn-query&h3=true"
+  - https://cn-east.iqiqzz.com/cdn#DIRECT
+  - https://dns.cooluc.com/dns-query#DIRECT
+  - https://doh.apad.pro/cn-query#DIRECT
 
   fallback:
     # -国内可用的 doh、dot 列表
-   - "https://public.dns.iij.jp/dns-query#\U0001F680 节点选择"
-   - "https://1.1.1.1/dns-query#\U0001F680 节点选择&h3=true"
+  - "https://8.8.8.8/dns-query#\U0001F680 节点选择"
+  - "https://1.1.1.1/dns-query#\U0001F680 节点选择&h3=true"
+  - "https://public.dns.iij.jp/dns-query#\U0001F680 节点选择"
+  - https://edns.apad.pro:3306/cdn-query#DIRECT&h3=true
             
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://doh.dns.sb/dns-query'
@@ -158,9 +160,9 @@ dns:
     
     
   proxy-server-nameserver:
-    - 'https://120.53.53.53/dns-query'
-    - "https://edns.apad.pro:3306/cdn-query#h3=true"
-    - 'https://cn-east.iqiqzz.com/cdn'
+  - https://cn-east.iqiqzz.com/cdn#DIRECT
+  - https://dns.cooluc.com/dns-query#DIRECT
+  - https://doh.apad.pro/cn-query#DIRECT
     
     
   fallback-filter:
