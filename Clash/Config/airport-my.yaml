@@ -88,16 +88,16 @@ dns:
     dns.twnic.tw: 101.101.101.101
 
   proxy-server-nameserver:
-     - https://cn-east.iqiqzz.com/cdn#DIRECT
-     - https://dns.cooluc.com/dns-query#DIRECT
-     - https://doh.apad.pro/cn-query#DIRECT
-     - https://d.atri.ink/dns-query#DIRECT
+     - https://cn-east.iqiqzz.com/cdn
+     - https://dns.cooluc.com/dns-query
+     - https://doh.apad.pro/cn-query
+     - https://d.atri.ink/dns-query
      
   nameserver:
-    - https://cn-east.iqiqzz.com/cdn#DIRECT
-    - https://dns.cooluc.com/dns-query#DIRECT
-    - https://doh.apad.pro/cn-query#DIRECT
-    - https://d.atri.ink/dns-query#DIRECT
+    - https://cn-east.iqiqzz.com/cdn
+    - https://dns.cooluc.com/dns-query
+    - https://doh.apad.pro/cn-query
+    - https://d.atri.ink/dns-query
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
@@ -111,7 +111,7 @@ dns:
     #- "https://8.8.8.8/dns-query#\U0001F680 节点选择"
     #- "https://1.1.1.1/dns-query#\U0001F680 节点选择&h3=true"
     #- "https://public.dns.iij.jp/dns-query#\U0001F680 节点选择"
-    #- https://edns.apad.pro:3306/cdn-query#DIRECT&h3=true
+    #- https://edns.apad.pro:3306/cdn-query#h3=true
 
      #   - https://dns.google/dns-query
      
