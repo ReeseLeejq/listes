@@ -107,9 +107,9 @@ dns:
      #- https://doh.360.cn/dns-query # 360 DoH DNS
 
   #fallback:
-    #- "https://dns.google/dns-query#\U0001F680 节点选择"
-    #- "https://1.1.1.1/dns-query#\U0001F680 节点选择&h3=true"
-    #- "https://public.dns.iij.jp/dns-query#\U0001F680 节点选择"
+    #- https://dns.google/dns-query
+    #- https://1.1.1.1/dns-query
+    #- https://public.dns.iij.jp/dns-query
 
      #   - https://dns.google/dns-query
      
