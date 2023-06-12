@@ -87,14 +87,12 @@ dns:
     dns.twnic.tw: 101.101.101.101
 
   proxy-server-nameserver:
-     - https://cn-east.iqiqzz.com/cdn
-     - https://dns.cooluc.com/dns-query
+     - https://dns.cooluc.com/dns-query#h3=true
      - https://doh.apad.pro/cdn-query
      - https://api.atri.ink/dns
      
   nameserver:
-    - https://cn-east.iqiqzz.com/cdn
-    #- https://dns.cooluc.com/dns-query
+    - https://dns.cooluc.com/dns-query#h3=true
     - https://doh.apad.pro/cdn-query
     - https://api.atri.ink/dns
      #- 223.5.5.5 # 阿里DNS
