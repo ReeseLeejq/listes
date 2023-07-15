@@ -86,16 +86,18 @@ dns:
     dns.alidns.com: 223.5.5.5
     doh.pub: 119.29.29.29
     dns.twnic.tw: 101.101.101.101
+    cooluc.com:119.29.29.29
+    apad.pro:119.29.29.29
 
   proxy-server-nameserver:
      - https://dns.cooluc.com/dns-query#h3=true
      - https://doh.apad.pro/cdn-query
-     - https://api.atri.ink/dns
+     - https://1.15.50.48/verse
      
   nameserver:
     - https://dns.cooluc.com/dns-query#h3=true
     - https://doh.apad.pro/cdn-query
-    - https://api.atri.ink/dns
+    - https://1.15.50.48/verse
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
